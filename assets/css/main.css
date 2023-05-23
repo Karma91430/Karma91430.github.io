@@ -2404,6 +2404,10 @@ input, select, textarea {
 					margin-right: auto !important;
 				}
 
+				.box.style1 p {
+					color: black;
+				}
+
 		/* Wrappers */
 
 			.wrapper {
