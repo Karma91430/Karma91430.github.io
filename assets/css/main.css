@@ -1996,6 +1996,7 @@ input, select, textarea {
 			align-items: center;
 			justify-content: center;
 			padding: 3em 2em 3.5em 2em;
+			height: 600px;
 		}
 
 		.box.style1 p {
@@ -2006,6 +2007,10 @@ input, select, textarea {
 				margin-bottom: 0.5em;
 			}
 
+		.box.style2  {
+			height: 550px;
+		}
+		
 		.box.style2 h3 {
 			margin-bottom: 0.25em;
 			max-height: 250px;
@@ -2474,13 +2479,14 @@ input, select, textarea {
 					max-width: 32em;
 					margin-left: auto !important;
 					margin-right: auto !important;
+					height: 500px;
 				}
 
 				.box.style2 {
 					max-width: 32em;
 					margin-left: auto !important;
 					margin-right: auto !important;
-					max-height: 250px;
+					height: 450px;
 				}
 
 				.box.style1 p {
