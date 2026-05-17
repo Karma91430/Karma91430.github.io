@@ -1,6 +1,6 @@
 export type Project = {
   title: string;
-  category: 'Process Mining' | 'LLM / Agentic' | 'ML / Forecasting' | 'Fintech' | 'NLP' | 'Computer Vision';
+  category: 'Process Mining' | 'LLM / Agentic' | 'ML / Forecasting' | 'Fintech' | 'NLP' | 'Computer Vision' | 'EdTech';
   description: string;
   impact: string;
   tech: string[];
@@ -32,6 +32,17 @@ export const projects: Project[] = [
     tech: ['FastAPI', 'Transformers', 'Next.js', 'Docker'],
     image: '/images/insyth_screenshot.png',
     href: 'https://www.predistocks.com',
+    featured: true,
+  },
+  {
+    title: 'Data Science Mastery',
+    category: 'EdTech',
+    description:
+      'Self-hosted learning platform covering the full data path — from exploration and visualisation to ML, deep learning and LLM hardware. Lessons, quizzes, hands-on exercises and exams, all served from a home server on the local network.',
+    impact:
+      'A private, end-to-end curriculum I can grow at my own pace and share with peers — no SaaS subscription, no data leaving the network.',
+    tech: ['Python', 'FastAPI', 'PostgreSQL', 'Self-hosted'],
+    image: '/images/dataScienceMastery.png',
     featured: true,
   },
   {
@@ -106,6 +117,7 @@ export const projectCategories: Project['category'][] = [
   'Fintech',
   'NLP',
   'Computer Vision',
+  'EdTech',
 ];
 
 export type Experience = {
